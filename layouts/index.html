@@ -4,11 +4,28 @@
 <head>
   {{ partial "head/metadata.html" . }}
   <title>{{ .Site.Title }}</title>
-  <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+  <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon"> {{ partial "head/prerender.html" . }}
 </head>
 
 <body>
-
+  <header>
+    <h3>header</h3>
+    <nav>
+      <h3>nav</h3>
+    </nav>
+  </header>
+  <section class="jumbotron">
+    <h1>Jumbotron area</h1>
+  </section>
+  <section class="solutions">
+    <h3>Solutions</h3>
+  </section>
+  <section class="testimonials">
+    <h3>Testimonials</h3>
+  </section>
+  <footer>
+    <h3>Footer</h3>
+  </footer>
 </body>
 
 </html>
