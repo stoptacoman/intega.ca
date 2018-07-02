@@ -1,3 +1,6 @@
 baseURL = "http://example.org/"
 languageCode = "en-us"
-title = "My New Hugo Site"
+title = "Managed Services and Tech Support in Ottawa | Intega IT"
+
+[params]
+  description = "Are you frustrated with computer problems and don't know who to trust to fix them? Intega IT provides IT Services and Tech Consulting to businesses in Ottawa. Contact us today!"
