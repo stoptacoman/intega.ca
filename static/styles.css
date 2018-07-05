@@ -6451,3 +6451,11 @@ label.panel-block {
 .footer {
   background-color: #fafafa;
   padding: 3rem 1.5rem 6rem; }
+
+.social-links {
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 3rem;
+  margin-top: 1rem; }
+  .social-links i {
+    margin-right: 0.25rem; }

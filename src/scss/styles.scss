@@ -1,1 +1,12 @@
 @import "bulma";
+
+.social-links {
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 3rem;
+  margin-top: 1rem;
+
+  i {
+    margin-right: 0.25rem;
+  }
+}
