@@ -1,3 +1,9 @@
+@import "sass/utilities/initial-variables";
+@import "sass/utilities/functions";
+
+// $navbar-height: 5.25rem;
+$box-padding: 0;
+
 @import "bulma";
 
 .social-links {
@@ -9,4 +15,34 @@
   i {
     margin-right: 0.25rem;
   }
+}
+.navbar-item img {
+  max-height: 80px;
+}
+.has-bg-image {
+  background: url("img/office-stock-1.jpg") no-repeat center fixed;
+}
+
+.solutions,
+.testimonials,
+footer {
+  margin-top: 2rem;
+  padding-bottom: 2rem;
+}
+.solution-icon,
+.solution-text,
+.solution-button,
+.is-padded {
+  padding: 1.25rem;
+}
+
+.quote {
+  padding: 1.25rem 2.5rem;
+}
+.quoter {
+  padding-top: 1.25rem;
+}
+
+.has-border-left {
+  border-left: 7px solid red;
 }
