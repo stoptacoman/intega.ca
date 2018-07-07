@@ -9,24 +9,161 @@
 
 <body>
   {{ partial "social-links.html" . }}
-  <header>
-    <h3>header</h3>
-    <nav>
-      <h3>nav</h3>
-    </nav>
+  <header class="container">
+    {{ partial "navbar.html" . }}
   </header>
-  <section class="jumbotron">
-    <h1>Jumbotron area</h1>
+  <section class="hero is-medium has-bg-image">
+    <div class="hero-body">
+      <div class="container">
+        <h1 class="title is-size-1 has-text-grey-lighter">Managed IT Solutions</h1>
+        <h2 class="subtitle is-size-4 has-text-grey-lighter">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts</h2>
+        <a href="#" class="button is-large is-warning">Learn More</a>
+      </div>
+    </div>
   </section>
-  <section class="solutions">
-    <h3>Solutions</h3>
+  <section class="container solutions">
+    <h1 class="title is-size-3 has-text-centered">Solutions</h1>
+    <div class="columns is-centered">
+      <div class="column is-one-quarter">
+        <div class="box has-text-centered">
+          <div class="solution-icon has-background-primary">
+            <i class="fas fa-desktop fa-5x"></i>
+          </div>
+          <div class="solution-text is-size-5 has-text-left">
+            <p>
+              This is probably the greatest thing to happen in my life - to be able to share this with you. You have to make almighty decisions
+              when you're the creator. It's cold, but it's beautiful. A big strong tree needs big strong roots.
+            </p>
+          </div>
+          <div class="solution-button has-background-grey-lighter">
+            <a href="" class="button is-medium is-info">Learn more</a>
+          </div>
+        </div>
+      </div>
+      <div class="column is-one-quarter">
+        <div class="box has-text-centered">
+          <div class="solution-icon has-background-primary">
+            <i class="fas fa-laptop fa-5x"></i>
+          </div>
+          <div class="solution-text is-size-5 has-text-left">
+            <p>
+              The shadows are just like the highlights, but we're going in the opposite direction. Don't be afraid to make these big decisions.
+              Once you start, they sort of just make themselves. In life you need colors.
+            </p>
+          </div>
+          <div class="solution-button has-background-grey-lighter">
+            <a href="" class="button is-medium is-info">Learn more</a>
+          </div>
+        </div>
+      </div>
+      <div class="column is-one-quarter">
+        <div class="box has-text-centered">
+          <div class="solution-icon has-background-primary">
+            <i class="fas fa-server fa-5x"></i>
+          </div>
+          <div class="solution-text is-size-5 has-text-left">
+            <p>
+              This is probably the greatest thing that's ever happened in my life. I guess that would be considered a UFO. A big cotton
+              ball in the sky. A happy cloud. If you overwork it you become a cloud killer.
+            </p>
+          </div>
+          <div class="solution-button has-background-grey-lighter">
+            <a href="" class="button is-medium is-info">Learn more</a>
+          </div>
+        </div>
+      </div>
   </section>
+  <!-- <section class="testimonials">
+    <h1 class="title is-size-3 has-text-centered">Our Clients</h1>
+    <div class="container">
+      <div class="box is-padded has-border-left">
+        <i class="fas fa-quote-left fa-2x"></i>
+        <div class="quote is-size-5">
+          Disrupt inspire and think tank, social entrepreneur but preliminary thinking think tank compelling. Inspiring, invest synergy
+          capacity building, white paper; silo, unprecedented challenge B-corp problem-solvers...
+          <a href="#" class="read-more">Read more</a>
+        </div>
+        <div class="has-text-right">
+          <i class="fas fa-quote-right fa-2x"></i>
+        </div>
+        <div class="quoter has-text-right">
+          <strong>Ottis Herzog</strong>
+        </div>
+        <div class="quoter-company has-text-right">Welch, Kunze and Romaguera</div>
+      </div>
+    </div>
+  </section> -->
   <section class="testimonials">
-    <h3>Testimonials</h3>
+    <div class="container">
+      <h1 class="title is-size-3 has-text-centered">Our Clients</h1>
+      <div class="carousel carousel-animated carousel-animate-slide">
+        <div class="carousel-container">
+          <div class="carousel-item is-active">
+            <div class="is-padded has-border-left">
+              <i class="fas fa-quote-left fa-2x"></i>
+              <div class="quote is-size-5">
+                Disrupt inspire and think tank, social entrepreneur but preliminary thinking think tank compelling. Inspiring, invest synergy
+                capacity building, white paper; silo, unprecedented challenge B-corp problem-solvers...
+                <a href="#" class="read-more">Read more</a>
+              </div>
+              <div class="has-text-right">
+                <i class="fas fa-quote-right fa-2x"></i>
+              </div>
+              <div class="quoter has-text-right">
+                <strong>Ottis Herzog</strong>
+              </div>
+              <div class="quoter-company has-text-right">Welch, Kunze and Romaguera</div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="is-padded has-border-left">
+              <i class="fas fa-quote-left fa-2x"></i>
+              <div class="quote is-size-5">
+                Synthetic garment vintage artistic pret-a-porter old-fashioned swim-wear sari necessity showcase. Accessory enhance couture
+                influence imagination consumer availability modern. Embroidery pret-a-porter hand-made effect hippie couture.
+                Contemporary creative one-of-a-kind tailored combination manufacture casual...
+                <a href="#" class="read-more">Read more</a>
+              </div>
+              <div class="has-text-right">
+                <i class="fas fa-quote-right fa-2x"></i>
+              </div>
+              <div class="quoter has-text-right">
+                <strong>Rossie Lubowitz</strong>
+              </div>
+              <div class="quoter-company has-text-right">Zulauf, Hyatt and Fisher LLC</div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="is-padded has-border-left">
+              <i class="fas fa-quote-left fa-2x"></i>
+              <div class="quote is-size-5">
+                Agile development termsheet crowdsource. Buzz technology non-disclosure agreement ownership user experience A/B testing sales
+                iPad investor funding niche market conversion branding. Validation strategy deployment innovator client entrepreneur
+                metrics. Burn rate disruptive series A financing equity...
+                <a href="#" class="read-more">Read more</a>
+              </div>
+              <div class="has-text-right">
+                <i class="fas fa-quote-right fa-2x"></i>
+              </div>
+              <div class="quoter has-text-right">
+                <strong>Justen Kiehn</strong>
+              </div>
+              <div class="quoter-company has-text-right">O'Hara, Mitchell and Davis LLC</div>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-navigation" style="margin-top: 1.5rem;">
+          <div class="carousel-nav-left">
+            <i class="fas fa-chevron-left fa-2x"></i>
+          </div>
+          <div class="carousel-nav-right">
+            <i class="fas fa-chevron-right fa-2x"></i>
+          </div>
+        </div>
+      </div>
+    </div>
   </section>
-  <footer>
-    <h3>Footer</h3>
-  </footer>
+  {{ partial "footer.html" . }} {{ partial "bottom-js.html" . }}
 </body>
 
 </html>
