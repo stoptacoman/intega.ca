@@ -1,6 +1,21 @@
 @import "sass/utilities/initial-variables";
 @import "sass/utilities/functions";
 
+// initial variables
+$crimson: #de2928;
+$gondola: #1e131d;
+$dingley: #788744;
+$christine: #f5770c;
+$pomegranate: #f44336;
+
+$family-sans-serif: "Nunito Sans", sans-serif;
+
+// Derived Variables
+$primary: $crimson;
+$info: $gondola;
+$success: $dingley;
+$warning: $christine;
+$danger: $pomegranate;
 // $navbar-height: 5.25rem;
 $box-padding: 0;
 

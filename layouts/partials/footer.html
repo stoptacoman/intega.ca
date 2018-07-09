@@ -1,17 +1,31 @@
-<footer class="footer">
-
+<footer class="footer has-background-grey-lighter">
   <div class="address">
-    <p>
-      <strong>Intega IT</strong>
-    </p>
-    <p>210-1900 Merivale Rd.</p>
-    <p>Ottawa, ON</p>
-    <p>K2G 4N4</p>
-    <br>
-    <p>Tel. 613-260-1114</p>
-    <p>Fax. 613-260-1114</p>
-    <br>
-    <p>&copy; {{ now.Year }} Intega IT</p>
+    <div class="columns">
+      <div class="column">
+        <section class="media">
+          <figure class="media-left">
+            <p class="image-is-64x64">
+              <img src="img/intega-icon-only.png" alt="Intega IT">
+            </p>
+          </figure>
+          <div class="media-content">
+            <div class="content">
+              <p>
+                <strong>Intega IT</strong>
+                <br>
+                <i class="fas fa-building"></i> 210-1900 Merivale Rd, Ottawa, ON K2G 4N4
+                <br>
+                <i class="fas fa-phone"></i> 613-260-1114
+                <br>
+                <i class="fas fa-fax"></i> 613-260-1114
+              </p>
+            </div>
+          </div>
+        </section>
+      </div>
+      <div class="column has-text-right">
+        <strong>&copy; {{ now.Year }} Intega IT</strong>
+      </div>
+    </div>
   </div>
-
 </footer>
