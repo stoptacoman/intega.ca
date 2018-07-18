@@ -6680,5 +6680,10 @@ footer {
 .quoter {
   padding-top: 1.25rem; }
 
+.client-logo {
+  background-color: #f44336;
+  border-radius: 50px;
+  padding: 0.5rem; }
+
 .has-border-left {
   border-left: 7px solid red; }
