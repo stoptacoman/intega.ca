@@ -7,6 +7,8 @@ $gondola: #1e131d;
 $dingley: #788744;
 $christine: #f5770c;
 $pomegranate: #f44336;
+$light-accent: #d79e58;
+$dark-accent: #817b9b;
 
 $family-sans-serif: "Nunito Sans", sans-serif;
 
@@ -16,8 +18,10 @@ $info: $gondola;
 $success: $dingley;
 $warning: $christine;
 $danger: $pomegranate;
+$link: $dark-accent;
 // $navbar-height: 5.25rem;
 $box-padding: 0;
+$navbar-item-hover-color: $dark-accent;
 
 @import "bulma";
 
