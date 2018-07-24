@@ -6672,7 +6672,10 @@ footer {
 .solution-text,
 .solution-button,
 .is-padded {
-  padding: 1.25rem; }
+  padding: 1.15rem; }
+
+.solution-title {
+  padding-top: 1.15rem; }
 
 .quote {
   padding: 1.25rem 2.5rem; }
