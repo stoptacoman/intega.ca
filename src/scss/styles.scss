@@ -9,6 +9,13 @@ $christine: #f5770c;
 $pomegranate: #f44336;
 $light-accent: #d79e58;
 $dark-accent: #817b9b;
+$border: darken(#f6f6f6, 5%);
+
+// Social colours
+$facebook: #3b5998;
+$twitter: #0084b4;
+$linkedin: #0077b5;
+$gplus: #d34836;
 
 $family-sans-serif: "Nunito Sans", sans-serif;
 
@@ -35,13 +42,53 @@ $navbar-item-hover-color: $dark-accent;
     margin-right: 0.25rem;
   }
 }
+i.fa-facebook-square {
+  color: $facebook;
+}
+i.fa-twitter-square {
+  color: $twitter;
+}
+i.fa-linkedin {
+  color: $linkedin;
+}
+i.fa-google-plus-square {
+  color: $gplus;
+}
 .navbar-item img {
   max-height: 80px;
 }
 .has-bg-image {
-  background: url("img/office-stock-1.jpg") no-repeat center fixed;
+  background: url("img/new-office-hero-min.png") no-repeat center fixed;
 }
 
+.has-border {
+  border: 1px solid $border;
+}
+.sol-box {
+  height: 300px;
+  background-color: white;
+  border: 1px solid $border;
+  padding: 1.15rem;
+  transition: all 0.3s ease;
+  &:hover {
+    border-left: 6px solid $primary;
+    box-shadow: 2px 8px 12px 0px rgba(0, 0, 0, 0.35);
+    i.fa-arrow-right {
+      opacity: 1;
+    }
+  }
+}
+i.fa-laptop,
+i.fa-server {
+  color: $primary;
+}
+
+i.fa-arrow-right {
+  color: $primary;
+  float: right;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
 .solutions,
 .testimonials,
 footer {
