@@ -6656,6 +6656,18 @@ label.panel-block {
   .social-links i {
     margin-right: 0.25rem; }
 
+i.fa-facebook-square {
+  color: #3b5998; }
+
+i.fa-twitter-square {
+  color: #0084b4; }
+
+i.fa-linkedin {
+  color: #0077b5; }
+
+i.fa-google-plus-square {
+  color: #d34836; }
+
 .navbar-item img {
   max-height: 80px; }
 
